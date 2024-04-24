@@ -1,7 +1,7 @@
 var express = require('express');
 const fetch = require("node-fetch");
 var router = express.Router();
-// require('dotenv').config();
+require('dotenv').config();
 
 const YOUR_API_KEY = process.env.YOUR_API_KEY;
 
